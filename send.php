@@ -29,7 +29,7 @@ if (mail("momot.vova@inbox.ru",
  "Пароль: " $pass."\n". 
  "Email: " $email "\n".
 "Телефон:" $tel,"\n". 
-"From: momot.vova@inbox.ru \r\n")
+"From: no-reply@mydomain.ru \r\n")
 ) {
 echo ('Письмо успешно отправлено!');
 }
